@@ -1,0 +1,62 @@
+:root {
+    --color1: #0C4E94;
+    --color2: #000000;
+    --color3: #D31F26;
+    --main-font: Arial;
+}
+
+body {
+    background-image: url(/eval-html-level-1-main/img/wood.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    font-family: var(--main-font);
+    color: var(--color2);
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+main {
+    width: 920px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.panneau {
+    margin: 25px;
+    border: 7px solid var(--color1);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    width: 75px;
+    height: 75px;
+}
+
+h1 {
+    background-color: var(--color1);
+    color: white;
+    padding: 15px 50px;
+    font-size: 40px;
+    border-radius: 5px;
+}
+
+.paragraphe1 {
+    text-align: center;
+    font-size: 28px;
+}
+
+.paragraphe2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.red-text {
+    color: var(--color3);
+    text-decoration: underline;
+}
